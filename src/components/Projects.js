@@ -26,7 +26,7 @@ export const Projects = () => {
         </TrackVisibility>
 
       <div className="ratio ratio-16x9">
-                  <iframe src="https://dexscreener.com/ethereum/" title="dexscreener" allowfullscreen></iframe>
+                  <iframe src="https://dexscreener.com/ethereum/0x642954b3233b3afdb35c46340c6307503dc19bb3" title="dexscreener" allowfullscreen></iframe>
               </div>          <br /><br />
 
 
