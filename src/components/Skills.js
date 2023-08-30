@@ -20,7 +20,7 @@ export const Skills = () => {
                         </TrackVisibility>
                         <TrackVisibility>
               {({ isVisible }) =>
-                        <p className={isVisible ? "animate__animated animate__lightSpeedInLeft" : ""}>CA: 0x.................................420 <br /> TOTAL SUPPLY: 100,000,000 $FORG
+                        <p className={isVisible ? "animate__animated animate__lightSpeedInLeft" : ""}>CA: 0x642954b3233b3afdb35c46340c6307503dc19bb3 <br /> TOTAL SUPPLY: 1,000,000,000 $FORG
                        </p>}
                         </TrackVisibility>
 
