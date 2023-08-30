@@ -45,12 +45,12 @@ export const NavBar = () => {
             <Nav className="ms-auto text-dark">
               <Nav.Link href="home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')} >About</Nav.Link>
               <Nav.Link href="https://www.dextools.io/app/en/ether/pair-explorer/" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Dextools Chart</Nav.Link>
-              <Nav.Link href="https://app.uniswap.org/#/swap?outputCurrency=" className={activeLink === 'exp' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('exp')}>Buy</Nav.Link>
+              <Nav.Link href="https://app.uniswap.org/#/swap?outputCurrency=0x642954b3233b3afdb35c46340c6307503dc19bb3" className={activeLink === 'exp' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('exp')}>Buy</Nav.Link>
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><img src={navIcon1} alt="/" /></a>
-                <a href="https://t.me/"><img src={navIcon2} alt="" /></a>
+                <a href="https://twitter.com/MagicForgETH" target="_blank" rel="noopener noreferrer"><img src={navIcon1} alt="/" /></a>
+                <a href="https://t.me/magicforg_eth"><img src={navIcon2} alt="" /></a>
 
               </div>
             </span>
